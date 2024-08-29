@@ -9,6 +9,8 @@ This repository is part of a project that aims to showcase the performance of a 
 - [Backend API](https://github.com/kerem-kaynak/pairs-trading-backend): Backend API serving data to the client.
 - [Frontend](https://github.com/kerem-kaynak/pairs-trading-frontend): Frontend application for web access.
 
+The research in the thesis leading to this project can be found [here](https://github.com/kerem-kaynak/pairs-trading-with-ml) with deeper explanations of the financial and statistical concepts.
+
 ## Pairs Trading Frontend
 
 This service is the access point for external users to the data of the project. Users can interface with the transformed data and visualize the performance of the trading strategy. Users can also see up-to-date suggestions for pairs and inspect tickers to discover trading opportunities.
