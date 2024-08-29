@@ -1,0 +1,1 @@
+export const BACKEND_HOST = "https://pairs-trading-backend-a56kh2a5na-ez.a.run.app"
