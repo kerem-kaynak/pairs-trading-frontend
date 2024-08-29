@@ -1,5 +1,3 @@
-// File: src/components/Ticker.js
-
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';

@@ -1,5 +1,3 @@
-// File: src/components/SuggestedPairs.js
-
 import React, { useState, useEffect } from 'react';
 import { BACKEND_HOST } from '../envConfig';
 

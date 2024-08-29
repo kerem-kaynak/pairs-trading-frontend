@@ -1,5 +1,3 @@
-// File: src/components/Tickers.js
-
 import React, { useState, useEffect } from 'react';
 import { BACKEND_HOST } from '../envConfig';
 import { Link } from 'react-router-dom';

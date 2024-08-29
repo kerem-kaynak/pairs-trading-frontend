@@ -1,5 +1,3 @@
-// File: src/components/Pair.js
-
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -40,7 +38,6 @@ const Pair = () => {
         const tradesData = await tradesResponse.json();
         const metricsData = await metricsResponse.json();
 
-        // Sort trades by date
         const sortedTrades = tradesData.sort((a, b) => new Date(a.date) - new Date(b.date));
 
         setTrades(sortedTrades);
